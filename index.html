@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terra Rehber · DJI Terra İnteraktif Veri İşleme Eğitimi</title>
+<meta name="description" content="Harita mühendisleri ve drone pilotları için DJI Terra veri işleme sürecini adım adım anlatan, bilgi seviyesine ve bölgeye göre uyarlanan interaktif eğitim rehberi.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          display: ['"Chakra Petch"', 'sans-serif'],
+          body: ['Inter', 'sans-serif'],
+          mono: ['"JetBrains Mono"', 'monospace'],
+        },
+      },
+    },
+  };
+</script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="ambient-grid" aria-hidden="true"></div>
+<div class="ambient-glow" aria-hidden="true"></div>
+
+<div class="app-shell">
+
+  <!-- ============== ÜST BAR ============== -->
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"><i class="ph ph-drone"></i></span>
+      <span class="brand-text">
+        <span class="brand-name" id="brandName">TERRA REHBER</span>
+        <span class="brand-tag" id="brandTag">DJI Terra Veri İşleme Eğitimi</span>
+      </span>
+    </div>
+
+    <div class="topbar-tools">
+      <!-- Bilgi seviyesi anahtarı: seviye seçildikten sonra görünür -->
+      <div class="level-toggle" id="levelToggle" role="group" aria-label="Bilgi seviyesi">
+        <button type="button" class="lvl" data-level="b" aria-pressed="false"><i class="ph ph-leaf" aria-hidden="true"></i></button>
+        <button type="button" class="lvl" data-level="i" aria-pressed="true"><i class="ph ph-compass-tool" aria-hidden="true"></i></button>
+        <button type="button" class="lvl" data-level="a" aria-pressed="false"><i class="ph ph-function" aria-hidden="true"></i></button>
+      </div>
+
+      <button type="button" class="lang-toggle" id="langToggle" data-lang="tr" aria-label="Switch to English">
+        <span class="lang-label-a">TR</span>
+        <span class="lang-label-b">EN</span>
+        <span class="lang-thumb" aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============== ANA SAHNE ============== -->
+  <main class="stage-wrap">
+    <div class="console" id="console">
+      <span class="hud-corner tl" aria-hidden="true"></span>
+      <span class="hud-corner tr" aria-hidden="true"></span>
+      <span class="hud-corner bl" aria-hidden="true"></span>
+      <span class="hud-corner br" aria-hidden="true"></span>
+
+      <button type="button" class="back-btn" id="backBtn">
+        <i class="ph ph-arrow-left" aria-hidden="true"></i>
+        <span id="backLabel">Geri</span>
+      </button>
+
+      <div class="step-viewport" id="stepViewport">
+        <!-- Adım panelleri app.js tarafından buraya monte edilir -->
+      </div>
+    </div>
+  </main>
+
+  <!-- ============== AŞAMA GÖSTERGESİ ============== -->
+  <footer class="telemetry-bar">
+    <div class="progress-wrap" id="progressWrap">
+      <div class="progress-track" id="progressTrack"></div>
+    </div>
+  </footer>
+
+</div>
+
+<!-- Paylaşılan tooltip baloncuğu (tek örnek, JS ile konumlandırılır) -->
+<div class="tooltip-bubble" id="tooltipBubble" role="tooltip"></div>
+
+<!-- Önce içerik, sonra motor -->
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
