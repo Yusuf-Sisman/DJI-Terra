@@ -250,6 +250,28 @@ body {
 }
 .lang-toggle[data-lang="en"] .lang-thumb { transform: translateX(100%); }
 
+/* --- GitHub linki --- */
+
+.github-link {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  color: var(--ink-dim);
+  font-size: 19px;
+  text-decoration: none;
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
+}
+.github-link:hover {
+  color: var(--ink);
+  border-color: var(--ink-faint);
+  background: var(--surface-2);
+}
+.github-link:focus-visible { outline: 2px solid var(--teal); outline-offset: 2px; }
+
 /* =====================================================================
    ANA SAHNE + KONSOL
    ===================================================================== */
