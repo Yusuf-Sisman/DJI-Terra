@@ -19,7 +19,7 @@
 /* ===================== DURUM ===================== */
 
 const state = {
-  lang: 'tr',
+  lang: 'en',
   currentId: 'welcome',
   history: [],
   /* Seçimlerin kaydı: adım id'si → seçenek id'si */

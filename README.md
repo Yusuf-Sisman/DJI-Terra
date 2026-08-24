@@ -1,8 +1,11 @@
-# Terra Rehber
+# Terra Guide
+
+[![GitHub](https://img.shields.io/badge/GitHub-Yusuf--Sisman%2FDJI--Terra-181717?logo=github)](https://github.com/Yusuf-Sisman/DJI-Terra)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-2ea44f)](https://yusuf-sisman.github.io/DJI-Terra/)
 
 **An interactive training guide that walks you through photogrammetry and LiDAR data processing in DJI Terra, step by step from raw flight data to delivery package.**
 
-Terra Rehber is a bilingual (Turkish / English) web application built for surveyors and drone pilots. It branches on the decisions you make at each step: it shows only the steps relevant to your scenario and hides the rest. By the end you have a personalised "processing recipe" for your specific project.
+Terra Guide is a bilingual (English / Turkish) web application built for surveyors and drone pilots. It branches on the decisions you make at each step: it shows only the steps relevant to your scenario and hides the rest. By the end you have a personalised "processing recipe" for your specific project.
 
 ---
 
@@ -16,7 +19,7 @@ DJI Terra is powerful software, but its interface assumes you already know what 
 - Not understanding the control strategy — flying without RTK FIX drifts the model by metres.
 - Not planning memory for LiDAR — the job crashes halfway or produces layered point clouds.
 
-Terra Rehber shows these mistakes **before the decision is made**. Every option card carries a "what this choice does" list and, where needed, a warning box.
+Terra Guide shows these mistakes **before the decision is made**. Every option card carries a "what this choice does" list and, where needed, a warning box.
 
 ---
 
@@ -113,7 +116,7 @@ The recipe can be printed from the browser or saved as a PDF. It serves as a rem
 
 ### Bilingual
 
-All content — step text, option descriptions, warnings, the glossary, UI labels, region names and CRS notes — is written in both Turkish and English. A single button in the top bar switches the language; the page does not reload, the current step is redrawn instantly in the other language.
+All content — step text, option descriptions, warnings, the glossary, UI labels, region names and CRS notes — is written in both English and Turkish. A single button in the top bar switches the language; the page does not reload, the current step is redrawn instantly in the other language.
 
 ---
 
@@ -145,11 +148,14 @@ Four files, no build tools, no compilation step. Drop them on GitHub Pages, Clou
 ---
 ---
 
-# Terra Rehber
+# Terra Guide
+
+[![GitHub](https://img.shields.io/badge/GitHub-Yusuf--Sisman%2FDJI--Terra-181717?logo=github)](https://github.com/Yusuf-Sisman/DJI-Terra)
+[![Canlı Demo](https://img.shields.io/badge/Canlı_Demo-GitHub_Pages-2ea44f)](https://yusuf-sisman.github.io/DJI-Terra/)
 
 **DJI Terra yazılımıyla fotogrametri ve LiDAR verisi işlemeyi, ham uçuş verisinden teslimat paketine kadar adım adım anlatan interaktif eğitim rehberi.**
 
-Terra Rehber, harita mühendisleri ve drone pilotları için tasarlanmış çift dilli (Türkçe / İngilizce) bir web uygulamasıdır. Kullanıcının her adımda verdiği kararlara göre dallanır: yalnızca o senaryoya ait adımları gösterir, gerisini gizler. Sonuçta kullanıcı, kendi projesine özel bir "işleme reçetesi" elde eder.
+Terra Guide, harita mühendisleri ve drone pilotları için tasarlanmış çift dilli (İngilizce / Türkçe) bir web uygulamasıdır. Kullanıcının her adımda verdiği kararlara göre dallanır: yalnızca o senaryoya ait adımları gösterir, gerisini gizler. Sonuçta kullanıcı, kendi projesine özel bir "işleme reçetesi" elde eder.
 
 ---
 
@@ -163,7 +169,7 @@ DJI Terra güçlü bir yazılımdır ancak arayüzü, kullanıcının hangi ayar
 - Kontrol noktası stratejisini bilmemek — RTK FIX olmadan uçuş metre mertebesinde kayar.
 - LiDAR'da bellek planlaması yapmamak — işlem yarıda düşer veya katmanlı nokta bulutu üretilir.
 
-Terra Rehber, bu hataları **karar verilmeden önce** gösterir. Her seçenek kartında "bunu seçersen ne olur" listesi ve gerektiğinde uyarı kutusu bulunur.
+Terra Guide, bu hataları **karar verilmeden önce** gösterir. Her seçenek kartında "bunu seçersen ne olur" listesi ve gerektiğinde uyarı kutusu bulunur.
 
 ---
 
@@ -260,7 +266,7 @@ Bu reçete tarayıcıdan yazdırılabilir veya PDF olarak kaydedilebilir. Aynı 
 
 ### Çift dil
 
-Tüm içerik — adım metinleri, seçenek açıklamaları, uyarılar, terim sözlüğü, arayüz etiketleri, bölge adları ve CRS notları — hem Türkçe hem İngilizce olarak yazılmıştır. Üst bardaki tek düğmeyle geçiş yapılır; sayfa yeniden yüklenmez, mevcut adım anında diğer dilde yeniden çizilir.
+Tüm içerik — adım metinleri, seçenek açıklamaları, uyarılar, terim sözlüğü, arayüz etiketleri, bölge adları ve CRS notları — hem İngilizce hem Türkçe olarak yazılmıştır. Üst bardaki tek düğmeyle geçiş yapılır; sayfa yeniden yüklenmez, mevcut adım anında diğer dilde yeniden çizilir.
 
 ---
 
