@@ -3,6 +3,8 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Yusuf--Sisman%2FDJI--Terra-181717?logo=github)](https://github.com/Yusuf-Sisman/DJI-Terra)
 [![Live Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-2ea44f)](https://yusuf-sisman.github.io/DJI-Terra/)
 
+🌐 **https://yusuf-sisman.github.io/DJI-Terra/**
+
 **An interactive training guide that walks you through photogrammetry and LiDAR data processing in DJI Terra, step by step from raw flight data to delivery package.**
 
 Terra Guide is a bilingual (English / Turkish) web application built for surveyors and drone pilots. It branches on the decisions you make at each step: it shows only the steps relevant to your scenario and hides the rest. By the end you have a personalised "processing recipe" for your specific project.
@@ -152,6 +154,8 @@ Four files, no build tools, no compilation step. Drop them on GitHub Pages, Clou
 
 [![GitHub](https://img.shields.io/badge/GitHub-Yusuf--Sisman%2FDJI--Terra-181717?logo=github)](https://github.com/Yusuf-Sisman/DJI-Terra)
 [![Canlı Demo](https://img.shields.io/badge/Canlı_Demo-GitHub_Pages-2ea44f)](https://yusuf-sisman.github.io/DJI-Terra/)
+
+🌐 **https://yusuf-sisman.github.io/DJI-Terra/**
 
 **DJI Terra yazılımıyla fotogrametri ve LiDAR verisi işlemeyi, ham uçuş verisinden teslimat paketine kadar adım adım anlatan interaktif eğitim rehberi.**
 
