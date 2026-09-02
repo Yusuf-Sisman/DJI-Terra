@@ -1,7 +1,7 @@
 # Terra Guide
 
 [![GitHub](https://img.shields.io/badge/GitHub-Yusuf--Sisman%2FDJI--Terra-181717?logo=github)](https://github.com/Yusuf-Sisman/DJI-Terra)
-[![Live](https://img.shields.io/badge/Live_Demo-GitHub_Pages-2ea44f)](https://yusuf-sisman.github.io/DJI-Terra/)
+[![Live](https://img.shields.io/badge/Live-GitHub_Pages-2ea44f)](https://yusuf-sisman.github.io/DJI-Terra/)
 
 🌐 **https://yusuf-sisman.github.io/DJI-Terra/**
 
